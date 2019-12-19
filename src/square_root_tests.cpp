@@ -15,6 +15,10 @@ TEST(SquareRootTest, NegativeNos) {
     ASSERT_EQ(-1.0, square_root(-15.0));
     ASSERT_EQ(-1.0, square_root(-0.2));
 }
+
+TEST(SquareRootTest, NonAlpha) {
+    ASSERT_EQ(-1.0, square_root('a'))
+}
  
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
