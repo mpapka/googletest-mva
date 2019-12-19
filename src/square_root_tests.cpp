@@ -17,7 +17,7 @@ TEST(SquareRootTest, NegativeNos) {
 }
 
 TEST(SquareRootTest, NonAlpha) {
-    ASSERT_EQ(-1.0, square_root('a'))
+    ASSERT_EQ(-1.0, square_root('a'));
 }
  
 int main(int argc, char **argv) {
