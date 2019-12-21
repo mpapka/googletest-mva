@@ -14,7 +14,6 @@ This example is inspired by https://www.ibm.com/developerworks/aix/library/au-go
 # Build Status (on Travis)
 
 [![Build Status](https://travis-ci.org/papka-niu/googletest-mva.svg?branch=master)](https://travis-ci.org/papka-niu/googletest-mva)
-/travis/:user/:repo
 
 # Prerequisites
 
