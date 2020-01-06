@@ -6,6 +6,7 @@
  
 TEST(SquareRootTest, PositiveNos) { 
     ASSERT_EQ(6, square_root(36.0));
+    ASSERT_EQ(7, square_root(49.0));
     ASSERT_EQ(18.0, square_root(324.0));
     ASSERT_EQ(25.4, square_root(645.16));
     ASSERT_EQ(0, square_root(0.0));
